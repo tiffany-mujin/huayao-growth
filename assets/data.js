@@ -312,6 +312,19 @@ const ACTIVITY_DATA = {
   // ====== 明星学员榜单（学员与老师的故事） ======
   starStudents: [],
 
-  // ====== 供需信息墙（资源对接） ======
-  supplyDemand: []
+  // ====== 资源对接 ======
+  resourceMatch: {
+    title: "华耀东方 · 私人对接",
+    description: "华耀东方搭建专属资源对接平台，为学员提供一对一精准资源匹配服务。从业务合作、项目孵化到投资对接、行业资源，我们帮助每一位华耀人找到所需、实现共赢。",
+    features: [
+      { icon: "handshake", title: "业务合作对接", desc: "跨行业资源匹配，助力学员企业间业务合作与渠道拓展" },
+      { icon: "lightbulb", title: "项目孵化支持", desc: "优质创业项目可获得华耀导师团一对一孵化指导" },
+      { icon: "trend", title: "投资资源引荐", desc: "对接优质投资人与资本资源，助力企业融资发展" },
+      { icon: "users", title: "行业人脉链接", desc: "汇聚各行业精英老板，打造高端资源社交圈层" }
+    ],
+    images: [
+      "assets/images/resource_01.jpeg",
+      "assets/images/resource_02.jpeg"
+    ]
+  }
 };
