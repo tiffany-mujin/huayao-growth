@@ -358,6 +358,29 @@ const ACTIVITY_DATA = {
         "线上持续出圈，知名度快速提升"
       ],
       tags: ["软件行业", "AI赋能", "短视频矩阵", "峰会演讲"]
+    },
+    {
+      id: "growth_002",
+      name: "芷薇",
+      title: "城市会长 · 汽配行业企业家",
+      industry: "汽配行业",
+      date: "2026-07-20",
+      avatar: "assets/images/growth_zhiwei_01.jpeg",
+      images: [
+        "assets/images/growth_zhiwei_01.jpeg",
+        "assets/images/growth_zhiwei_02.jpeg",
+        "assets/images/growth_zhiwei_03.jpeg"
+      ],
+      before: "汽配行业城市会长芷薇，7月1日正式加入华耀会长体系。此前0短视频基础，传统汽配业务受行业大环境影响，客户获取困难，急需找到新的获客渠道。",
+      after: "0基础跟着华耀做抖音、视频号短视频，如今每日稳定线上引流，源源不断成交客户。8月即将开启个人首场实体转型沙龙。行业大环境再难，她说：有华耀，就有底气！",
+      highlights: [
+        "7月1日加入，0基础起步",
+        "每日稳定线上引流成交",
+        "8月即将开启个人首场实体转型沙龙",
+        "汽配行业低迷期逆势突围",
+        "有华耀就有底气"
+      ],
+      tags: ["城市会长", "汽配行业", "短视频获客", "实体转型"]
     }
   ],
 
