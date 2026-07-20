@@ -613,6 +613,168 @@
       line-height: 1.8;
     }
 
+    /* ===== GROWTH RANKING ===== */
+    .growth-card {
+      background: var(--bg-card);
+      border: 1px solid rgba(201,169,97,0.08);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-bottom: 32px;
+      transition: all 0.4s;
+    }
+    .growth-card:hover {
+      border-color: rgba(201,169,97,0.2);
+      transform: translateY(-4px);
+      box-shadow: var(--shadow);
+    }
+    .growth-header {
+      display: flex;
+      gap: 20px;
+      padding: 28px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .growth-avatar {
+      width: 80px; height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid rgba(201,169,97,0.3);
+      flex-shrink: 0;
+    }
+    .growth-info { flex: 1; min-width: 200px; }
+    .growth-name {
+      font-family: var(--font-serif);
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+    .growth-title {
+      font-size: 0.9rem;
+      color: var(--gold);
+      margin-bottom: 4px;
+    }
+    .growth-meta {
+      display: flex;
+      gap: 16px;
+      font-size: 0.8rem;
+      color: var(--ink-muted);
+    }
+    .growth-meta span { display: flex; align-items: center; gap: 4px; }
+    .growth-stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+      padding: 0 28px 24px;
+    }
+    .growth-stat {
+      background: var(--purple-deep);
+      border-radius: 8px;
+      padding: 16px;
+      text-align: center;
+    }
+    .growth-stat .num {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      font-weight: 300;
+      background: var(--gradient-gold);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .growth-stat .label {
+      font-size: 0.75rem;
+      color: var(--ink-muted);
+      margin-top: 4px;
+    }
+    .growth-story {
+      padding: 0 28px 24px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .growth-before, .growth-after {
+      background: var(--purple-deep);
+      border-radius: 8px;
+      padding: 20px;
+    }
+    .growth-before h4 {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.5);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .growth-after h4 {
+      font-size: 0.85rem;
+      color: var(--gold);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .growth-before p, .growth-after p {
+      font-size: 0.88rem;
+      color: var(--ink-secondary);
+      line-height: 1.8;
+    }
+    .growth-highlights {
+      padding: 0 28px 28px;
+    }
+    .growth-highlights h4 {
+      font-family: var(--font-serif);
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .growth-highlights h4::before { content: ''; width: 20px; height: 1px; background: var(--gold); }
+    .growth-highlight-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .growth-highlight-tag {
+      padding: 8px 16px;
+      background: var(--accent-light);
+      border-radius: 8px;
+      font-size: 0.84rem;
+      color: var(--ink-secondary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border-left: 2px solid var(--accent);
+    }
+    .growth-highlight-tag::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--gold); flex-shrink: 0; }
+    .growth-images {
+      padding: 0 28px 28px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 12px;
+    }
+    .growth-images img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid rgba(201,169,97,0.08);
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+    .growth-images img:hover {
+      border-color: rgba(201,169,97,0.3);
+      transform: scale(1.03);
+    }
+    @media (max-width: 768px) {
+      .growth-story { grid-template-columns: 1fr; }
+      .growth-header { flex-direction: column; text-align: center; }
+      .growth-stats { grid-template-columns: repeat(2, 1fr); }
+      .growth-images { grid-template-columns: repeat(2, 1fr); }
+    }
+
     /* ===== RESOURCE MATCHING ===== */
     .resource-features {
       display: grid;
@@ -954,11 +1116,7 @@
       <div class="section-eyebrow">GROWTH RANKING</div>
       <h2 class="section-title">成长<em>榜单</em></h2>
       <p class="section-desc">记录每一位VIP学员的成长蜕变故事，见证从平凡到卓越的每一步</p>
-      <div class="placeholder-section">
-        <div class="placeholder-icon">&#9734;</div>
-        <h3 class="placeholder-title">成长榜单即将上线</h3>
-        <p class="placeholder-desc">记录VIP学员的成长故事，展示从加入华耀到事业腾飞的完整蜕变历程。素材收集中，敬请期待。</p>
-      </div>
+      <div id="growth-content"></div>
     </div>
   </section>
 
@@ -1057,6 +1215,7 @@
       renderAchievements();
       renderTimeline();
       renderLecturer();
+      renderGrowth();
       renderResource();
       renderFilters();
       renderActivities();
@@ -1150,6 +1309,59 @@
           ${rm.images.map(img => `<img src="${img}" alt="资源对接" onerror="this.style.display='none'">`).join('')}
         </div>
       `;
+    }
+
+    function renderGrowth() {
+      const container = document.getElementById('growth-content');
+      const items = ACTIVITY_DATA.growthRanking;
+      if (!items || items.length === 0) {
+        container.innerHTML = '<div class="placeholder-section"><div class="placeholder-icon">&#9734;</div><h3 class="placeholder-title">成长榜单即将上线</h3><p class="placeholder-desc">记录VIP学员的成长故事，素材收集中，敬请期待。</p></div>';
+        return;
+      }
+      container.innerHTML = items.map(item => `
+        <div class="growth-card">
+          <div class="growth-header">
+            <img class="growth-avatar" src="${item.avatar}" alt="${item.name}" onerror="this.style.display='none'">
+            <div class="growth-info">
+              <div class="growth-name">${item.name}</div>
+              <div class="growth-title">${item.title}</div>
+              <div class="growth-meta">
+                <span>&#128205; ${item.industry}</span>
+                <span>&#128197; ${item.date}</span>
+              </div>
+            </div>
+          </div>
+          ${item.highlights ? `
+          <div class="growth-stats">
+            ${item.highlights.slice(0, 3).map(h => {
+              const numMatch = h.match(/(\d[\d.]+万?)/);
+              const num = numMatch ? numMatch[1] : '';
+              const label = num ? h.replace(num, '').trim() : h;
+              return num ? `<div class="growth-stat"><div class="num">${num}</div><div class="label">${label}</div></div>` : '';
+            }).filter(Boolean).join('')}
+          </div>` : ''}
+          <div class="growth-story">
+            <div class="growth-before">
+              <h4>&#128260; 加入华耀之前</h4>
+              <p>${item.before}</p>
+            </div>
+            <div class="growth-after">
+              <h4>&#11088; 加入华耀之后</h4>
+              <p>${item.after}</p>
+            </div>
+          </div>
+          <div class="growth-highlights">
+            <h4>成长亮点</h4>
+            <div class="growth-highlight-tags">
+              ${item.highlights.map(h => `<span class="growth-highlight-tag">${h}</span>`).join('')}
+            </div>
+          </div>
+          ${item.images && item.images.length > 0 ? `
+          <div class="growth-images">
+            ${item.images.map(img => `<img src="${img}" alt="${item.name}成长记录" onerror="this.style.display='none'">`).join('')}
+          </div>` : ''}
+        </div>
+      `).join('');
     }
 
     function renderFilters() {

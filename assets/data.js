@@ -331,7 +331,35 @@ const ACTIVITY_DATA = {
   ],
 
   // ====== 成长榜单（VIP学员成长故事） ======
-  growthRanking: [],
+  growthRanking: [
+    {
+      id: "growth_001",
+      name: "张总",
+      title: "华耀未来科技AI主理人",
+      industry: "软件行业",
+      date: "2026-07-17",
+      avatar: "assets/images/growth_zhang_06.jpeg",
+      images: [
+        "assets/images/growth_zhang_01.jpeg",
+        "assets/images/growth_zhang_02.jpeg",
+        "assets/images/growth_zhang_03.jpeg",
+        "assets/images/growth_zhang_04.jpeg",
+        "assets/images/growth_zhang_05.jpeg",
+        "assets/images/growth_zhang_06.jpeg",
+        "assets/images/growth_zhang_07.jpeg"
+      ],
+      before: "软件行业张总一直有意布局线上，但苦于没有方向和方法，传统业务模式增长乏力，急需找到新的流量突破口。",
+      after: "加入华耀后落地短视频矩阵，融合AI与自身软件业务打造专业内容。线上持续出圈，单条视频播放量突破61.8万，完播率58.75%，转发量1783次，新增关注495人。知名度快速提升，受邀登上SCEE 2026中国软件渠道生态大会西南峰会登台分享AI赋能行业干货，会后特地发来致谢。",
+      highlights: [
+        "单条视频播放量突破61.8万",
+        "完播率58.75%，转发量1783次",
+        "受邀登上SCEE 2026西南峰会登台分享",
+        "AI+短视频矩阵融合软件业务",
+        "线上持续出圈，知名度快速提升"
+      ],
+      tags: ["软件行业", "AI赋能", "短视频矩阵", "峰会演讲"]
+    }
+  ],
 
   // ====== 引荐榜单（影响力榜单） ======
   referralRanking: [],
