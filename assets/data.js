@@ -327,6 +327,44 @@ const ACTIVITY_DATA = {
         "城市会长：重庆周恣邑（舞蹈培训公司创始人）"
       ],
       tags: ["城市会长", "她成长", "课程体系", "利群老师", "商业模式"]
+    },
+    {
+      id: "20260722_001",
+      title: "短视频直播沙龙课 · 各行各业老板线上布局实战",
+      category: "salon",
+      date: "2026-07-22",
+      location: "华耀东方总部",
+      description: "【课程回顾】7月22日，华耀东方短视频直播沙龙课圆满举行。现场汇聚了来自各行各业的老板，共同学习线上布局的核心方法论。在当下这个流量为王的时代，做生意必须布局线上，已经成为所有创业者的共识。本次沙龙课从短视频账号定位、内容策划、拍摄剪辑到直播转化，全流程拆解线上获客的关键路径。导师们结合真实案例，手把手带领学员现场实操，让每一位到场的老板都能带着方法回去、照着执行落地。从0基础到能拍会剪，从不懂流量到掌握获客逻辑，这场沙龙课真正做到了让每一位学员不虚此行。",
+      images: [
+        "assets/images/20260722_salon_1EFE.jpeg",
+        "assets/images/20260722_salon_43A3.jpeg",
+        "assets/images/20260722_salon_514E.jpeg",
+        "assets/images/20260722_salon_59C8.jpeg",
+        "assets/images/20260722_salon_6AE3.jpeg",
+        "assets/images/20260722_salon_703E.jpeg",
+        "assets/images/20260722_salon_727E.jpeg",
+        "assets/images/20260722_salon_77B3.jpeg",
+        "assets/images/20260722_salon_7B60.jpeg",
+        "assets/images/20260722_salon_879B.jpeg",
+        "assets/images/20260722_salon_9423.jpeg",
+        "assets/images/20260722_salon_9684.jpeg",
+        "assets/images/20260722_salon_9FD8.jpeg",
+        "assets/images/20260722_salon_B16F.jpeg",
+        "assets/images/20260722_salon_B994.jpeg",
+        "assets/images/20260722_salon_BED4.jpeg",
+        "assets/images/20260722_salon_CFD4.jpeg",
+        "assets/images/20260722_salon_FBFC.jpeg",
+        "assets/images/20260722_salon_167F.jpeg"
+      ],
+      videos: [],
+      highlights: [
+        "各行各业老板齐聚，现场学习线上布局",
+        "短视频+直播全流程实操教学",
+        "账号定位、内容策划、拍摄剪辑到转化",
+        "导师手把手带教，现场即学即用",
+        "当下做生意，线上布局已是必选项"
+      ],
+      tags: ["课程回顾", "短视频", "直播", "线上布局", "老板培训"]
     }
   ],
 
