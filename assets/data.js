@@ -380,7 +380,7 @@ const ACTIVITY_DATA = {
       category: "salon",
       date: "2026-07-22",
       location: "华耀东方总部",
-      description: "【课程回顾】7月22日，华耀东方短视频直播沙龙课圆满举行。现场汇聚了来自各行各业的老板，共同学习线上布局的核心方法论。在当下这个流量为王的时代，做生意必须布局线上，已经成为所有创业者的共识。本次沙龙课从短视频账号定位、内容策划、拍摄剪辑到直播转化，全流程拆解线上获客的关键路径。导师们结合真实案例，手把手带领学员现场实操，让每一位到场的老板都能带着方法回去、照着执行落地。从0基础到能拍会剪，从不懂流量到掌握获客逻辑，这场沙龙课真正做到了让每一位学员不虚此行。",
+      description: "【课程回顾】7月22日，华耀东方短视频直播沙龙课圆满举行。现场汇聚了来自各行各业的老板和职场人，共同学习线上布局的核心方法论。各行各业老板和职场人都在拥抱线上——让你被更多人看见，被更多人感受到。在当下这个流量为王的时代，做生意必须布局线上，已经成为所有创业者的共识。本次沙龙课从短视频账号定位、内容策划、拍摄剪辑到直播转化，全流程拆解线上获客的关键路径。导师们结合真实案例，手把手带领学员现场实操，让每一位到场的老板都能带着方法回去、照着执行落地。从0基础到能拍会剪，从不懂流量到掌握获客逻辑，这场沙龙课真正做到了让每一位学员不虚此行。",
       images: [
         "assets/images/20260722_salon_1EFE.jpeg",
         "assets/images/20260722_salon_43A3.jpeg",
@@ -400,15 +400,27 @@ const ACTIVITY_DATA = {
         "assets/images/20260722_salon_BED4.jpeg",
         "assets/images/20260722_salon_CFD4.jpeg",
         "assets/images/20260722_salon_FBFC.jpeg",
-        "assets/images/20260722_salon_167F.jpeg"
+        "assets/images/20260722_salon_167F.jpeg",
+        "assets/images/20260722_salon_20.jpeg",
+        "assets/images/20260722_salon_21.jpeg",
+        "assets/images/20260722_salon_22.jpeg",
+        "assets/images/20260722_salon_23.jpeg",
+        "assets/images/20260722_salon_24.jpeg",
+        "assets/images/20260722_salon_25.jpeg",
+        "assets/images/20260722_salon_26.jpeg",
+        "assets/images/20260722_salon_27.jpeg",
+        "assets/images/20260722_salon_28.jpeg",
+        "assets/images/20260722_salon_29.jpeg",
+        "assets/images/20260722_salon_30.jpeg",
+        "assets/images/20260722_salon_31.jpeg"
       ],
       videos: [],
       highlights: [
-        "各行各业老板齐聚，现场学习线上布局",
+        "各行各业老板和职场人齐聚，共同拥抱线上",
+        "让你被更多人看见，被更多人感受到",
         "短视频+直播全流程实操教学",
         "账号定位、内容策划、拍摄剪辑到转化",
-        "导师手把手带教，现场即学即用",
-        "当下做生意，线上布局已是必选项"
+        "导师手把手带教，现场即学即用"
       ],
       tags: ["课程回顾", "短视频", "直播", "线上布局", "老板培训"]
     },
