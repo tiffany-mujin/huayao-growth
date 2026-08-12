@@ -110,6 +110,40 @@ const ACTIVITY_DATA = {
   // ====== 活动记录 ======
   activities: [
     {
+      id: "20260803_001",
+      title: "华耀人格优养中心 · 星光少年成长营｜点亮孩子内在原动力",
+      category: "training",
+      date: "2026-08-03",
+      endDate: "2026-08-07",
+      location: "华耀东方总部",
+      description: "【活动回顾】8月3日至7日，华耀人格优养中心《星光少年成长营》五天沉浸式成长圆满收官。很多孩子厌学、自卑、做事拖拉，根源不在于懒惰，而是内在能量枯竭。本次成长营不灌输大道理，而是从内心深处滋养孩子的自信、目标感与行动力。五天时间里，通过沉浸式体验与专业引导，帮助孩子们放下内耗、释放压力，重新建立强大的内在内核。从不敢表达到主动发声，从迷茫无措到清晰目标，从拖拉磨蹭到主动行动——孩子们眼里重新燃起了光芒，学会主动为自己的人生发力。这不是一次普通的夏令营，而是一场点燃孩子内在原动力的深层蜕变之旅。",
+      images: [
+        "assets/images/20260803_camp_01.jpeg",
+        "assets/images/20260803_camp_02.jpeg",
+        "assets/images/20260803_camp_03.jpeg",
+        "assets/images/20260803_camp_04.jpeg",
+        "assets/images/20260803_camp_05.jpeg",
+        "assets/images/20260803_camp_06.jpeg",
+        "assets/images/20260803_camp_07.jpeg",
+        "assets/images/20260803_camp_08.jpeg",
+        "assets/images/20260803_camp_09.jpeg",
+        "assets/images/20260803_camp_10.jpeg",
+        "assets/images/20260803_camp_11.jpeg",
+        "assets/images/20260803_camp_12.jpeg",
+        "assets/images/20260803_camp_13.jpeg",
+        "assets/images/20260803_camp_14.jpeg"
+      ],
+      videos: [],
+      highlights: [
+        "五天沉浸式成长，点亮孩子内在原动力",
+        "不灌输大道理，从内心滋养自信、目标感与行动力",
+        "帮助孩子放下内耗，建立强大内核",
+        "从厌学自卑到主动发声、从拖拉到主动行动",
+        "让孩子眼里重新燃起光芒，主动为自己的人生发力"
+      ],
+      tags: ["人格优养中心", "星光少年", "成长营", "青少年成长", "内在原动力"]
+    },
+    {
       id: "20260730_001",
       title: "少年领袖·小小CEO体验营 · 四天三夜创业全流程实战",
       category: "training",
