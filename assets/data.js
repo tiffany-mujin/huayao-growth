@@ -110,6 +110,44 @@ const ACTIVITY_DATA = {
   // ====== 活动记录 ======
   activities: [
     {
+      id: "20260817_001",
+      title: "卓越人生能量管理学 · 认知自我·读懂他人·发挥天赋优势",
+      category: "course",
+      date: "2026-08-17",
+      location: "华耀东方总部",
+      description: "【课程回顾】卓越人生能量管理学，一堂关于认知自我、读懂他人、发挥天赋优势的深度成长课程。每个人都拥有独特的天赋密码，但大多数人终其一生都在用短板挣扎，而忽略了自身闪光点。本课程从能量管理切入，帮助学员重新认识自己的天赋特质，读懂他人的行为模式，从而在人际交往、团队协作和事业发展中找到最适合自己的路径。不再盲目努力，而是找到自身闪光点，轻松做事、高效成长。课堂现场互动热烈，学员们在沉浸式体验中不断获得顿悟与突破，重新定义了自己的能量运作方式。",
+      images: [
+        "assets/images/20260817_course_01.jpeg",
+        "assets/images/20260817_course_02.jpeg",
+        "assets/images/20260817_course_03.jpeg",
+        "assets/images/20260817_course_04.jpeg",
+        "assets/images/20260817_course_05.jpeg",
+        "assets/images/20260817_course_06.jpeg",
+        "assets/images/20260817_course_07.jpeg",
+        "assets/images/20260817_course_08.jpeg",
+        "assets/images/20260817_course_09.jpeg",
+        "assets/images/20260817_course_10.jpeg",
+        "assets/images/20260817_course_11.jpeg",
+        "assets/images/20260817_course_12.jpeg",
+        "assets/images/20260817_course_13.jpeg",
+        "assets/images/20260817_course_14.jpeg",
+        "assets/images/20260817_course_15.jpeg",
+        "assets/images/20260817_course_16.jpeg",
+        "assets/images/20260817_course_17.jpeg",
+        "assets/images/20260817_course_18.jpeg",
+        "assets/images/20260817_course_19.jpeg"
+      ],
+      videos: [],
+      highlights: [
+        "认知自我：重新发现天赋特质与能量运作方式",
+        "读懂他人：洞察行为模式，提升人际交往与团队协作",
+        "发挥天赋优势：找到自身闪光点，轻松做事高效成长",
+        "能量管理体系：从盲目努力到顺势而为的转变",
+        "沉浸式课堂体验，学员现场顿悟与突破"
+      ],
+      tags: ["能量管理", "认知自我", "天赋优势", "个人成长", "课程回顾"]
+    },
+    {
       id: "20260813_001",
       title: "主理人一对一赋能 · 城嘉老师赋能李双姐深耕私域电商+护眼健康赛道",
       category: "empower",
