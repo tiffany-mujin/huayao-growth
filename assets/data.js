@@ -110,6 +110,40 @@ const ACTIVITY_DATA = {
   // ====== 活动记录 ======
   activities: [
     {
+      id: "20260820_001",
+      title: "华耀喜报 · AI主理人朝梅完成AI学习淬炼·正式落地泸州区域赋能",
+      category: "empower",
+      date: "2026-08-20",
+      location: "泸州",
+      description: "【华耀喜报】热烈恭喜AI主理人朝梅主理人！完成AI学习淬炼，正式落地泸州区域赋能。现已开启面向泸州各行各业老板的实战授课，涵盖数智人应用、短视频内容打造、个人IP搭建、直播实战落地四大核心板块。朝梅主理人运用华耀AI体系，赋能本地企业家抓住数字流量机遇，帮助每一位老板从传统经营者转变为行业赋能者。从学习者到赋能者，从一个人到带动一群人——期待主理人持续发光，带动更多华耀家人拿到线上结果！",
+      images: [
+        "assets/images/20260820_empower_01.jpeg",
+        "assets/images/20260820_empower_02.png",
+        "assets/images/20260820_empower_03.jpeg",
+        "assets/images/20260820_empower_04.jpeg",
+        "assets/images/20260820_empower_05.jpeg",
+        "assets/images/20260820_empower_06.jpg",
+        "assets/images/20260820_empower_07.jpeg",
+        "assets/images/20260820_empower_08.jpeg",
+        "assets/images/20260820_empower_09.jpeg",
+        "assets/images/20260820_empower_10.jpeg",
+        "assets/images/20260820_empower_11.jpeg",
+        "assets/images/20260820_empower_12.png",
+        "assets/images/20260820_empower_13.jpeg",
+        "assets/images/20260820_empower_14.jpeg",
+        "assets/images/20260820_empower_15.png"
+      ],
+      videos: [],
+      highlights: [
+        "AI主理人朝梅完成AI学习淬炼，正式落地泸州区域赋能",
+        "数智人应用：AI数字人实战教学",
+        "短视频内容打造与个人IP搭建",
+        "直播实战落地全流程授课",
+        "从经营者转变为行业赋能者，带动更多家人拿到线上结果"
+      ],
+      tags: ["AI赋能", "泸州区域", "数智人", "短视频", "直播实战", "朝梅主理人"]
+    },
+    {
       id: "20260819_001",
       title: "华耀万人公益沙龙行 · 美妆主题沙龙｜发现你的专属美丽",
       category: "salon",
