@@ -835,6 +835,41 @@ const ACTIVITY_DATA = {
         "跟随华耀做短视频和线上，持续突破"
       ],
       tags: ["重庆城市会长", "气场蜕变", "盈利三倍增长", "行业标杆", "影响力中心"]
+    },
+    {
+      id: "growth_006",
+      name: "李朝梅",
+      title: "泸州会长 · 从学员到复制型行业讲师 · 平台孵化器标杆",
+      industry: "泸州",
+      date: "2026-08-21",
+      avatar: "assets/images/growth_luzhou_01.jpeg",
+      images: [
+        "assets/images/growth_luzhou_01.jpeg",
+        "assets/images/growth_luzhou_02.jpeg",
+        "assets/images/growth_luzhou_03.jpeg",
+        "assets/images/growth_luzhou_04.jpeg",
+        "assets/images/growth_luzhou_05.jpeg",
+        "assets/images/growth_luzhou_06.jpeg",
+        "assets/images/growth_luzhou_07.jpeg",
+        "assets/images/growth_luzhou_08.jpeg",
+        "assets/images/growth_luzhou_09.png",
+        "assets/images/growth_luzhou_10.jpeg",
+        "assets/images/growth_luzhou_11.png",
+        "assets/images/growth_luzhou_12.jpeg",
+        "assets/images/growth_luzhou_13.jpeg",
+        "assets/images/growth_luzhou_14.jpg",
+        "assets/images/growth_luzhou_15.jpeg"
+      ],
+      before: "泸州会长李朝梅，最初以学员身份加入华耀。虽然有行业经验和本地资源，但缺乏系统化输出能力，无法将自身经验转化为可复制的课程体系，个人影响力和品牌背书有限。",
+      after: "参与华耀讲师锻造营完成自我蜕变，不止练会短视频IP与直播实战，更把华耀整套课程复制落地到泸州本地与行业圈层。赋能行业客户做线上内容，加固客户粘性，打造个人行业权威背书。在习水县新联会、古蔺女子商会、龙马潭区新联会、泸州文艺大讲堂等多地开展AI赋能商业培训，获四川新闻网等官方媒体多次报道。学员从'一脸蒙到能上手'，典型案例'琴姐'从1-2个赞、百浏览到64个赞、上千浏览。完成从老板→讲师→行业赋能者的跃迁——华耀东方，真正的讲师&平台孵化器，给体系、给模板、给全套赋能，助力每一位会长把所学变成向外输出的力量！",
+      highlights: [
+        "从学员到复制型行业讲师的完整跃迁",
+        "把华耀整套课程复制落地到泸州本地与行业圈层",
+        "习水县新联会、古蔺女子商会、龙马潭区新联会等多地开展AI赋能培训",
+        "获四川新闻网等官方媒体多次报道",
+        "学员典型案例：从1-2赞百浏览到64赞上千浏览"
+      ],
+      tags: ["泸州会长", "讲师孵化", "AI赋能", "复制型讲师", "官方媒体报道", "平台孵化器"]
     }
   ],
 
