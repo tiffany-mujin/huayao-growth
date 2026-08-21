@@ -110,6 +110,35 @@ const ACTIVITY_DATA = {
   // ====== 活动记录 ======
   activities: [
     {
+      id: "20260821_001",
+      title: "华耀东方&雅芮专场 · 利群老师个人品牌演说内训",
+      category: "training",
+      date: "2026-08-21",
+      location: "华耀东方总部",
+      description: "【内训回顾】华耀东方&雅芮专场——利群老师个人品牌演说内训圆满完成。好产品自带实力，好表达自带流量，让每一次发声，都为你的个人品牌加分。利群老师作为华耀东方联合创始人、"她·成长"计划讲师孵化导师、魅力女性演说导师，现场深度拆解演说核心密码：从逻辑不好、台风不好、话多无重点等常见痛点切入，帮助学员打通"创业者最核心的表达力"。课程涵盖演说逻辑搭建、台风气场修炼、重点提炼与表达精炼、个人品牌IP塑造等系统内容，全程互动实操，学员现场登台演练、逐句打磨。一场关于"表达力"的深度赋能——让你的每一次发声，都自带流量、自带影响力！",
+      images: [
+        "assets/images/20260821_training_01.jpeg",
+        "assets/images/20260821_training_02.jpeg",
+        "assets/images/20260821_training_03.jpeg",
+        "assets/images/20260821_training_04.jpeg",
+        "assets/images/20260821_training_05.jpeg",
+        "assets/images/20260821_training_06.jpeg",
+        "assets/images/20260821_training_07.jpeg",
+        "assets/images/20260821_training_08.jpeg",
+        "assets/images/20260821_training_09.jpeg",
+        "assets/images/20260821_training_10.jpeg"
+      ],
+      videos: [],
+      highlights: [
+        "华耀东方联合创始人利群老师亲授·个人品牌演说内训专场",
+        "好产品自带实力，好表达自带流量——让每一次发声为品牌加分",
+        "深度拆解演说核心：从逻辑、台风、重点提炼全面打通",
+        "创业者最核心的能力是表达力——系统化演说训练",
+        "现场登台演练+逐句打磨，实操落地即学即用"
+      ],
+      tags: ["个人品牌", "演说内训", "利群老师", "表达力", "雅芮专场", "演说实战"]
+    },
+    {
       id: "20260820_001",
       title: "华耀喜报 · AI主理人朝梅完成AI学习淬炼·正式落地泸州区域赋能",
       category: "empower",
