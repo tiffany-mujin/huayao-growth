@@ -166,6 +166,35 @@ const ACTIVITY_DATA = {
       tags: ["个人品牌", "演说内训", "利群老师", "表达力", "雅芮专场", "演说实战"]
     },
     {
+      id: "20260828_001",
+      title: "AI直播力 · 创始人直播变现营（8月28-29日）",
+      category: "course",
+      date: "2026-08-28",
+      location: "华耀东方总部",
+      description: "【课程回顾】AI直播力·创始人直播变现营圆满完成！两天沉浸式实战课程，从AI直播底层逻辑到实操落地，帮助每一位创始人掌握直播变现的全链路能力。课程涵盖AI直播力体系搭建、创始人个人IP定位、直播话术设计与成交模型、专业直播设备实操演练等核心内容。现场配备专业摄影设备，学员逐一上台实战演练，导师全程指导逐句打磨。从不敢面对镜头到从容开播，从单场几十观看到稳定引流成交——创始人亲自上阵做直播，就是最好的品牌背书。AI时代，会用直播变现的创始人，才能在竞争中突围！",
+      images: [
+        "assets/images/20260828_course_01.jpeg",
+        "assets/images/20260828_course_02.jpeg",
+        "assets/images/20260828_course_03.jpeg",
+        "assets/images/20260828_course_04.jpeg",
+        "assets/images/20260828_course_05.jpeg",
+        "assets/images/20260828_course_06.jpeg",
+        "assets/images/20260828_course_07.jpeg",
+        "assets/images/20260828_course_08.jpeg",
+        "assets/images/20260828_course_09.jpeg",
+        "assets/images/20260828_course_10.jpeg"
+      ],
+      videos: [],
+      highlights: [
+        "两天沉浸式AI直播实战课程",
+        "AI直播力体系搭建与创始人IP定位",
+        "直播话术设计与成交模型全链路拆解",
+        "专业直播设备实操演练，学员逐一上台",
+        "从不敢面对镜头到从容开播的实战蜕变"
+      ],
+      tags: ["AI直播", "创始人IP", "直播变现", "实操演练", "专业设备", "成交模型"]
+    },
+    {
       id: "20260820_001",
       title: "华耀喜报 · AI主理人朝梅完成AI学习淬炼·正式落地泸州区域赋能",
       category: "empower",
