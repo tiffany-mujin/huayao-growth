@@ -909,7 +909,6 @@ const ACTIVITY_DATA = {
       images: [
         "assets/images/growth_zhiwei2_01.png",
         "assets/images/growth_zhiwei2_02.png",
-        "assets/images/growth_zhiwei2_03.jpeg",
         "assets/images/growth_zhiwei2_04.png"
       ],
       before: "芷薇会长作为汽配行业女老板，演说是最大短板——不敢上台、不会表达。同时作为母亲，孩子的表达能力也一度让她担忧：孩子不敢面对镜头、不敢表达自己。母亲的成长天花板，也在无形中成为孩子的成长天花板。",
